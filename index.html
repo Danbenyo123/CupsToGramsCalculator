@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculatorBody">
+        <form>
+            <div class="radio">
+            <input class="dots" type="radio" name="convert" value="grams">
+                <label for="cups">גרם לכוסות</label>
+                <input class="dots" type="radio" name="convert" value="cups">
+                <label for="grams">כוסות לגרם</label>
+            </div>
+            <div class ="input">
+                <input class="UserIngridients" id="amount" name="amount" type="number" min="0" placeholder="כמות">
+                <select class="UserIngridients" id="ingridients">
+            <option>חומר גלם</option>
+        </select>
+            </div>
+        </form>
+<!--
+            <div class="buttonDiv">
+            <button type="button" id="calculate">חשב</button>
+            </div>
+                    -->
+            <div class= "result"><h3 id="resultText">תוצאה</h3>
+            </div>
+
+    </div>
+<script src="Recepie calculator.js"></script>
+</body>
+</html>
+<!--  חשבון צריך להיראות
+# 2 אפשרויות צ׳קבוקס: כוסות לגרם | גרם לכוסות
+# מקום לאינפוט של מספר אחריו לייבל טקסט של כוסות/גרם
+# בחירה מרשימה של סוג רכיב
+# כפתור של חשב
+#  תוצאה בגדול של המספר המומר וכוסות/גרם
+-->
