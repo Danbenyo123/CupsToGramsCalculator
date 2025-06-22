@@ -46,6 +46,12 @@ form {
     width: 90%;
     height: 250px;
 }
+#amount {
+    direction: ltr;
+}
+#amount::placeholder {
+  direction: rtl; /* Placeholder text is RTL */
+}
 .UserIngridients {
     width: 45%;
     height: auto;
