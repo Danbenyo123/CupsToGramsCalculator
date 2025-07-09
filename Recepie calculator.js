@@ -37,11 +37,11 @@ return {
 }
 // the preset ingridients:
 let sugar = createIngridient('סוכר',200);
-let flour = createIngridient('קמח',100);
+let flour = createIngridient('קמח',140);
 let powderedSugar = createIngridient('אבקת סוכר',120);
 let cocoa = createIngridient('אבקת קקאו',85);
 let almondFlour = createIngridient('קמח שקדים',96);
-let rice = createIngridient('אורז',96);
+let rice = createIngridient('אורז',200);
 let water = createIngridient('מים',240);
 
 
